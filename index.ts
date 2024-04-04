@@ -6,6 +6,7 @@ let accountBalance = 50000;
 const accessCode = 87569;
 
 // Verify PIN
+
 const pinVerification = await inquirer.prompt({
   name: "pin",
   message: "Enter your PIN code:",
@@ -19,6 +20,7 @@ if (pinVerification.pin === accessCode) {
 }
 
 // User selects operation
+
 const userChoice = await inquirer.prompt([
   {
     name: "operation",
@@ -30,11 +32,12 @@ const userChoice = await inquirer.prompt([
 
 if (userChoice.operation === "Withdraw") {
   // Withdrawal amount
+
   const amountAnswer = await inquirer.prompt([
     {
       name: "amount",
       message: "Enter the withdrawal amount:",
-      type: "number"
+      type: "number",
     },
   ]);
 

@@ -29,7 +29,7 @@ if (userChoice.operation === "Withdraw") {
         {
             name: "amount",
             message: "Enter the withdrawal amount:",
-            type: "number"
+            type: "number",
         },
     ]);
     if (amountAnswer.amount <= accountBalance) {
