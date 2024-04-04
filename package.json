@@ -1,5 +1,5 @@
 {
-  "name": "rash28845-atm",
+  "name": "rash28745-atm",
   "version": "1.0.0",
   "description": "An interactive ATM, built using Typescript, Node.JS and Inquirer",
   "main": "index.js",
