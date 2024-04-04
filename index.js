@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let accountBalance = 50000;
 const accessCode = 87569;
