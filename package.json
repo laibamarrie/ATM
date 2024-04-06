@@ -1,6 +1,6 @@
 {
   "name": "rash28745-atm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An interactive ATM, built using Typescript, Node.JS and Inquirer",
   "main": "index.js",
   "type": "module",
